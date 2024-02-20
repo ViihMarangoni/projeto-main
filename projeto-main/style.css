@@ -1,0 +1,212 @@
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.3rem;
+   
+}
+
+.whats{
+width: 20px;
+
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+input[type=text] {
+    align-items: center;
+    width: 400px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b81818;
+}
+
+a {
+    font-family: cursive;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.header1 {
+    width: 0 auto;
+    padding: 0px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header1 a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+
+header {
+    display: flex;
+    background-color: #f3e9df;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header img{
+    padding-left: 150px;
+    align-items: center;
+}
+
+.header ul a{
+    padding: 10px;
+    align-items: center;
+}
+    
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #f3e9df;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 8px;
+    background: rgba(255, 235, 235, 0.301);
+}
+
+h1 { 
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+.banner {
+    width: 100%;
+    height: 450px; /* ajuste a altura conforme necessário */
+    overflow: hidden;
+    position: relative;
+  }
+  
+
+
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* para ajustar a imagem ao tamanho do contêiner */
+  }
+  
+  /* Adicione classes para cada slide */
+  #slide1 {
+    animation: slide1 20s infinite;
+  }
+  
+  #slide2 {
+    animation: slide2 20s infinite;
+  }
+  
+  #slide3 {
+    animation: slide3 20s infinite;
+  }
+  
+  /* Defina as animações para cada slide */
+  @keyframes slide1 {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    50% { opacity: 1; }
+    75% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  
+  @keyframes slide2 {
+    0% { opacity: 0; }
+    25% { opacity: 0; }
+    50% { opacity: 1; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  @keyframes slide3 {
+    0% { opacity: 0; }
+    25% { opacity: 0; }
+    50% { opacity: 0; }
+    75% { opacity: 1; }
+    100% { opacity: 1; }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex>div {
+    flex: 200px;
+    margin: 10px 10px;
+}
+
+
+
+
+
