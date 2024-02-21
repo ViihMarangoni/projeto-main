@@ -12,11 +12,6 @@ body, ul, li, p {
    
 }
 
-.whats{
-width: 20px;
-
-}
-
 .search-container {
     margin-top: 20px;
 }
@@ -30,6 +25,7 @@ input[type=text] {
 }
 
 button {
+  background-color: #f3e9df;
     padding: 8px 15px;
     color: rgb(0, 0, 0);
     border: none;
@@ -108,7 +104,7 @@ footer {
 }
 
 h1 { 
-    background-color: aliceblue;
+    background-color: #f3e9df;
     text-align: center;
     margin-top: auto;
 }
@@ -118,8 +114,6 @@ img {
     display: block;
     border-radius: 8px;
 }
-
-
 
 .banner {
     width: 100%;
@@ -182,19 +176,8 @@ img {
     100% { opacity: 1; }
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .flex {
+  
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
@@ -205,8 +188,3 @@ img {
     flex: 200px;
     margin: 10px 10px;
 }
-
-
-
-
-
